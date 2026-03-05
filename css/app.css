@@ -1,0 +1,222 @@
+:root {
+  --font-family: "Inter", sans-serif;
+  --second-family: "Space Grotesk", sans-serif;
+  --red2: #ea5f5c; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-weight: 400;
+    list-style: none;
+}
+
+body, a, textarea, button, input{
+    font-family: var(--font-family);
+}
+
+.main_block{
+    width: 100%;
+    background: #124;
+    padding-bottom: 80px;
+}
+
+.main_block .container{
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.main_block .container header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    margin-bottom: 80px;
+    padding-top: 20px;
+}
+
+.main_block .container header .logo{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.main_block .container header menu{
+    display: flex;
+    width: 440px;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateX(-70px);
+}
+
+.main_block .container header menu li a{
+    font-weight: 500;
+    color: #ddd;
+    transition: 0.3s;
+}
+
+.main_block .container header menu li a:hover{
+    color: #ffc947;
+}
+
+.main_block .container header aside span{
+    font-weight: 500;
+    color: #ddd;
+    margin-right: 30px;
+}
+
+.main_block .container header aside span:hover{
+    cursor: pointer;
+}
+
+.main_block .container header aside button{
+    font-weight: 500;
+    color: #fff;
+    border-radius: 4px;
+    width: 162px;
+    height: 45px;
+    background: #f23935;
+    border: none;
+    transition: 0.3s;
+}
+
+.main_block .container header aside button:hover{
+    background: #fff;
+    color: #f23935;
+    transform: scale(1.1);
+}
+
+.main_block .container .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_block .container .content article{
+    width: 620px;
+}
+
+.main_block .container .content article h1{
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 100px;
+    color: #efefef;
+}
+
+.main_block .container .content article h1 .line{
+    width: 100px;
+    height: 7px;
+    background: #ffc947;
+    display: inline-block;
+    
+}
+
+.main_block .container .content article h1 .defender_text{
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 100px;
+    color: #efefef;
+    color: #ffc947;
+}
+
+.main_block .container .content article p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    color: #acacac;
+    width: 479px;
+    margin-bottom: 35px;
+}
+
+.main_block .container .content article button{
+    font-weight: 500;
+    color: #fff;
+    border-radius: 4px;
+    width: 162px;
+    height: 45px;
+    background: #f23935;
+    border: none;
+    margin-bottom: 35px;
+    transition: 0.3s;
+}
+
+.main_block .container .content article button:hover{
+    background: #fff;
+    color: #f23935;
+    transform: scale(1.1);
+}
+
+.main_block .container .content article div{
+    display: flex;
+    align-items: center;
+}
+
+.main_block .container .content article div h5{
+    font-family: var(--font-family);
+    font-weight: 500;
+    color: #d6d6d6;
+    margin-right: 33px;
+}
+
+.main_block .container .content article div .apple{
+    margin-right: 20px;
+}
+
+.trust_block{
+    padding: 73px 0;
+}
+
+.trust_block .container{
+    width: 1174px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trust_block .container article{
+    width: 533px;
+}
+
+.trust_block .container article h2{
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 40px;
+    color: #1e1e1e;
+    margin-bottom: 24px;
+}
+
+.trust_block .container article p{
+    font-weight: 500;
+    color: #7c7c7c;
+    margin-bottom: 60px;
+}
+
+.trust_block .container article aside{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.trust_block .container article aside nav{
+    text-align: center;
+}
+
+.trust_block .container article aside nav h3{
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 40px;
+    color: var(--red2);
+}
+
+.trust_block .container article aside nav h4{
+    font-weight: 500;
+    color: #515151;
+}
+
+.trust_block .container article aside nav:first-child{
+    margin-right: 76px;
+}
