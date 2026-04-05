@@ -90,6 +90,10 @@ body, a, textarea, button, input{
     transform: scale(1.1);
 }
 
+.main_block .container header .sp{
+    display: none;
+}
+
 .main_block .container .content{
     display: flex;
     align-items: center;

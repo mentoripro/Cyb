@@ -1,0 +1,89 @@
+@media (max-width: 500px){
+    .main_block .container{
+        width: 95%;
+    }
+    .main_block .container header menu{
+        display: none;
+    }
+    .main_block .container header aside{
+        display: none;
+    }
+    .main_block .container header .sp{
+        width: 30px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .main_block .container header .sp nav{
+        width: 100%;
+        height: 3px;
+        background: #fff;
+        border-radius: 10px;
+    }
+    .main_block .container .content{
+        flex-direction: column;
+    }
+
+    .main_block .container .content article{
+        width: 350px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .main_block .container .content article h1{
+        font-size: 52px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .main_block .container .content article h1 .line{
+        width: 35px;
+        height: 4px;
+    }
+    .main_block .container .content article h1 .defender_text{
+        font-size: 52px;
+    }
+    .main_block .container .content article p{
+        font-size: 18px;
+        width: 100%;
+    }
+    .main_block .container .content article button{
+        font-size: 18px;
+        width: 200px;
+        height: 55px;
+    }
+    .main_block .container .content article div{
+        justify-content: center;
+    }
+    .main_block .container .content article div h5{
+        font-size: 18px;
+    }
+    .main_block .container .content article div img{
+        width: 30px;
+    }
+    .main_block .container .content > img{
+        width: 300px;
+        margin-top: 70px;
+    }
+    .trust_block{
+        padding-top: 40px;
+    }
+    .trust_block .container{
+        width: 95%;
+        flex-direction: column;
+    }
+    .trust_block .container article{
+        order: -1;
+        width: 100%;
+    }
+    .trust_block .container article aside{
+        justify-content: center;
+    }
+    .trust_block .container article aside nav h3{
+        font-size: 30px;
+    }
+    .trust_block .container  > img{
+        width: 300px;
+        margin-top: 50px;
+    }
+}
